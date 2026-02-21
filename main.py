@@ -19,7 +19,7 @@ log = logging.getLogger(__name__)
 reddit = praw.Reddit(
     client_id=os.getenv("REDDIT_CLIENT_ID"),
     client_secret=os.getenv("REDDIT_CLIENT_SECRET"),
-    user_agent="ToyhouseStreakBot:v6.0 (Status Check Only)",
+    user_agent="Almandin",
     username=os.getenv("REDDIT_USERNAME"),
     password=os.getenv("REDDIT_PASSWORD")
 )
